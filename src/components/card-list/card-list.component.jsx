@@ -3,8 +3,6 @@ import './card-list.styles.css'
 import {Card} from '../card/card.component.jsx'
 
 export const CardList = (props) => {
-
-    console.log(props);
     return (
         <div className="card-list">
             {props.monsters.map((monster)=> (
@@ -12,5 +10,4 @@ export const CardList = (props) => {
           ))}
         </div>
     )
-
 }
